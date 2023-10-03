@@ -1,1 +1,20 @@
-a
+#Take home exercises
+#Write a function that takes a word as an argument and returns the number of vowels in the word
+
+def count_vowels:
+  """count the number of vowels in the word."""
+  vowels = "aeiouAEIOU"
+  count = 0
+for char in word:
+  if char in vowels:
+    count+=1
+  
+
+
+
+
+#Iterate through the following list of animals and print each one in all caps.
+animals=['tiger', 'elephant', 'monkey', 'zebra', 'panther']
+
+#Iterate from 1 to 15, printing whether the number is odd or even
+#Take two integers as input from user and return the sum
