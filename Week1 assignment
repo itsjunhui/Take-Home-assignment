@@ -1,15 +1,14 @@
 #Take home exercises
 #Write a function that takes a word as an argument and returns the number of vowels in the word
-
-def count_vowels:
-  """count the number of vowels in the word."""
-  vowels = "aeiouAEIOU"
-  count = 0
-for char in word:
-  if char in vowels:
-    count+=1
+def count_vowels(word):
+    vowels = "aeiouAEIOU"
+    count = 0
+    for char in word:
+        if char in vowels:
+            count+=1
+    return count
+print (count_vowels("hello"))
   
-
 #Iterate through the following list of animals and print each one in all caps.
 animals=['tiger', 'elephant', 'monkey', 'zebra', 'panther']
 for animal in animals:
